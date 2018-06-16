@@ -35,7 +35,7 @@ int CountDayInMonth(int month, int year) {
 	}
 }
 
-//вделение даты из строки
+//выделение даты из строки
 bool DateFromStr(string str, Date &date) {
 	if (str == "") {
 		return false;
